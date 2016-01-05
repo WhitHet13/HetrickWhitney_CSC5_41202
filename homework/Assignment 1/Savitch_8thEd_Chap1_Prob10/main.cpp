@@ -24,15 +24,15 @@ int main(int argc, char** argv) {
     //Calculate or map inputs to outputs
     
     //Output results
-    cout<<"    "<<letter<<letter<<letter<<endl;
-    cout<<"  "<<letter<<"    "<<letter<<endl;
+    cout<<"   "<<letter<<letter<<letter<<endl;
+    cout<<" "<<letter<<"    "<<letter<<endl;
     cout<<""<<letter<<endl;
     cout<<""<<letter<<endl;
     cout<<""<<letter<<endl;
     cout<<""<<letter<<endl;
     cout<<""<<letter<<endl;
-    cout<<"  "<<letter<<"    "<<letter<<endl;
-    cout<<"    "<<letter<<letter<<letter<<endl;
+    cout<<" "<<letter<<"    "<<letter<<endl;
+    cout<<"   "<<letter<<letter<<letter<<endl;
     
   
     //Exit stage right
