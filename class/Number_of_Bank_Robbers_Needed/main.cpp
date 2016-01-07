@@ -11,8 +11,8 @@ using namespace std;
 //User Libraries
 
 //Global Constant
-const char wtBill =1;//Weight in grams
-const float cnvLbs =1.0f/453.5f; //Conversion from grams to lbs
+const char WTBILL =1;//Weight in grams
+const float CNVLBS =1.0f/453.5f; //Conversion from grams to lbs
 
 
 //Function Prototypes
@@ -33,7 +33,8 @@ int main(int argc, char** argv) {
    
     
     // Calculate the number of fellow perpetrators 
-    nPerps=cnvLbs*amtStl*wtBill/denom/wtPers+1;
+    nPerps=CNVLBS*amtStl*WTBILL/denom/wtPers; //Truncated equation
+    nPerps=nPerps+1; //Untruncated Equation
     
     //Output the results
    
